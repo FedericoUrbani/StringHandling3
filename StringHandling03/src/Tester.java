@@ -16,7 +16,7 @@ public class Tester {
 
         String[] array1 = {" i want ", " to learn ", " how to code! "};
         String[] array2 = Tester.removeFirstAndLastSpace(array1);
-        System.out.println(!(array2[0].compareTo("i want")>(array2[1].compareTo("to learn"))));
+        System.out.println(!(array2[0].compareTo("I want")>(array2[1].compareToIgnoreCase("to learn"))));
 
 
     }
